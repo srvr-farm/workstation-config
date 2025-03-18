@@ -1,0 +1,37 @@
+# GhosTTY Config
+
+font-size = 13
+theme = GitLab-Dark-Grey
+
+background = #1B1C1D
+background-opacity = 0.9
+
+# Move between tabs
+keybind = ctrl+page_up=previous_tab
+keybind = ctrl+page_down=next_tab
+
+# Create splits
+keybind = ctrl+shift+h=new_split:down
+keybind = ctrl+shift+d=new_split:right
+keybind = ctrl+shift+]=goto_split:right
+keybind = ctrl+shift+[=goto_split:left
+
+# Resize splits
+keybind = ctrl+shift+left=resize_split:left,16
+keybind = ctrl+shift+right=resize_split:right,16
+keybind = ctrl+shift+up=resize_split:up,16
+keybind = ctrl+shift+down=resize_split:down,16
+keybind = ctrl+shift+space=equalize_splits
+
+# Close surface
+keybind = ctrl+shift+w=close_surface
+
+# Toggle window decoration
+keybind = ctrl+alt+w=toggle_window_decorations
+
+# Clipboard
+keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+shift+p=paste_from_clipboard
+
+# Reset
+keybind = ctrl+shift+r=reset
