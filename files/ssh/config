@@ -1,0 +1,5 @@
+Host 10.0.*
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+	SetEnv TERM=xterm-256color
+	ConnectTimeout 3
