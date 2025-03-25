@@ -1,7 +1,8 @@
 # GhosTTY Config
 
  
-scrollback-limit = 16384
+scrollback-limit = 4294967295
+
 window-padding-balance = false
 window-vsync = true
 window-decoration = server
