@@ -15,3 +15,6 @@ Host 10.0.0.*
 
 Host 10.0.1.5
 	User opc
+
+Host *srvr.farm
+	User mark
