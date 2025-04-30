@@ -6,3 +6,12 @@ Host 10.0.*
 	UserKnownHostsFile /dev/null
 	SetEnv TERM=xterm-256color
 	ConnectTimeout 3
+	
+Host 10.0.1.*
+	User mcallan
+
+Host 10.0.0.*
+	User mark
+
+Host 10.0.1.5
+	User opc
