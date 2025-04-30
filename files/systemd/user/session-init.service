@@ -1,0 +1,7 @@
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/session-init
+
+[Install]
+WantedBy=default.target
+ 

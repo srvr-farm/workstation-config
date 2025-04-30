@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+echo "[Session Initializer] starting."
+sleep 3
+
+test -x ${HOME}/.local/init.d/`hostname`.sh && ${HOME}/.local/init.d/`hostname`.sh
+
+
+
+
+
+echo "[Session Initializer] complete."
