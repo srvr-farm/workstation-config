@@ -31,12 +31,16 @@ keybind = ctrl+shift+page_down=move_tab:1
 
 # Create splits
 keybind = ctrl+h=new_split:down
+keybind = ctrl+shift+h=new_split:up
 keybind = ctrl+d=new_split:right
-keybind = ctrl+]=goto_split:right
-keybind = ctrl+[=goto_split:left
+keybind = ctrl+shift+d=new_split:left
+keybind = ctrl+]=goto_split:next
+keybind = ctrl+tab=goto_split:next
+keybind = ctrl+[=goto_split:previous
 keybind = ctrl+shift+]=goto_split:right
 keybind = ctrl+shift+[=goto_split:left
 keybind = global:cmd+t=toggle_quick_terminal
+
 # Resize splits
 keybind = ctrl+shift+left=resize_split:left,16
 keybind = ctrl+shift+right=resize_split:right,16
