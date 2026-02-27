@@ -7,6 +7,9 @@ Host 10.0.*
 	SetEnv TERM=xterm-256color
 	ConnectTimeout 3
 	
+Host srvr.farm
+	User mark
+
 Host 10.0.1.*
 	User mcallan
 
@@ -16,5 +19,3 @@ Host 10.0.0.*
 Host 10.0.1.5
 	User opc
 
-Host *srvr.farm
-	User mark
