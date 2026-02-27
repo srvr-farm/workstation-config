@@ -3,10 +3,12 @@
 echo "[Session Initializer] starting."
 sleep 3
 
-test -x ${HOME}/.local/init.d/`hostname`.sh && ${HOME}/.local/init.d/`hostname`.sh
-
-
-
-
+host_init_script="${HOME}/.local/init.d/`hostname`.sh"
+if [ -x "${host_init_script}" ]; then
+	echo "Executing session init: ${host_init_script}"
+	if ! ${HOME}/.local/init.d/`hostname`.sh ; then
+		echo "WARN: Session init exited non-zero."
+	fi
+fi
 
 echo "[Session Initializer] complete."
